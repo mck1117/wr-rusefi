@@ -29,11 +29,11 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32
-LIBS:de0-cv-shield
+LIBS:wr-rusefi
 LIBS:ftdi
 LIBS:switches
 LIBS:powerint
-LIBS:de0-cv-shield-cache
+LIBS:wr-rusefi-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
