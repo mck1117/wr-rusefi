@@ -97,21 +97,21 @@ F 3 "" H 2800 1700 50  0000 C CNN
 	1    2800 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 12900 5600 2    60   Input ~ 0
+Text GLabel 12700 5600 2    60   Input ~ 0
 a0
-Text GLabel 12900 5700 2    60   Input ~ 0
+Text GLabel 12700 5700 2    60   Input ~ 0
 a1
-Text GLabel 12900 5800 2    60   Input ~ 0
+Text GLabel 12700 5800 2    60   Input ~ 0
 a2
-Text GLabel 12900 5900 2    60   Input ~ 0
+Text GLabel 12700 5900 2    60   Input ~ 0
 a3
-Text GLabel 12900 2200 2    60   Input ~ 0
+Text GLabel 12650 2200 2    60   Input ~ 0
 a4
-Text GLabel 12900 2300 2    60   Input ~ 0
+Text GLabel 12650 2300 2    60   Input ~ 0
 a5
-Text GLabel 12900 2400 2    60   Input ~ 0
+Text GLabel 12650 2400 2    60   Input ~ 0
 a6
-Text GLabel 12900 2500 2    60   Input ~ 0
+Text GLabel 12650 2500 2    60   Input ~ 0
 a7
 Text GLabel 1100 10050 0    60   Input ~ 0
 ls_1
@@ -166,9 +166,9 @@ Text GLabel 20600 4050 2    60   Input ~ 0
 ftdi_tx
 Text GLabel 20600 4150 2    60   Input ~ 0
 ftdi_rx
-Text GLabel 12650 6600 2    60   Input ~ 0
+Text GLabel 12700 6600 2    60   Input ~ 0
 ftdi_rx
-Text GLabel 12650 6700 2    60   Input ~ 0
+Text GLabel 12700 6700 2    60   Input ~ 0
 ftdi_tx
 $Comp
 L LED D101
@@ -392,9 +392,9 @@ Text GLabel 1700 6000 2    60   Input ~ 0
 a6
 Text GLabel 1700 5900 2    60   Input ~ 0
 a7
-Text GLabel 12900 4500 2    60   Input ~ 0
+Text GLabel 12700 4500 2    60   Input ~ 0
 CAN_TX
-Text GLabel 12900 5100 2    60   Input ~ 0
+Text GLabel 12700 5100 2    60   Input ~ 0
 CAN_RX
 $Comp
 L MCP2562-E/SN U105
@@ -530,7 +530,7 @@ F 3 "" H 2750 14050 60  0001 C CNN
 	1    2750 14050
 	1    0    0    -1  
 $EndComp
-Text GLabel 12900 4900 2    60   Input ~ 0
+Text GLabel 12700 4900 2    60   Input ~ 0
 IGN_B_IN
 Text GLabel 3200 5400 0    60   Input ~ 0
 IGN_C_IN
@@ -870,56 +870,56 @@ $EndComp
 $Comp
 L GND #PWR146
 U 1 1 585370D4
-P 13850 3100
-F 0 "#PWR146" H 13850 2850 50  0001 C CNN
-F 1 "GND" H 13850 2950 50  0000 C CNN
-F 2 "" H 13850 3100 50  0000 C CNN
-F 3 "" H 13850 3100 50  0000 C CNN
-	1    13850 3100
+P 19350 2200
+F 0 "#PWR146" H 19350 1950 50  0001 C CNN
+F 1 "GND" H 19350 2050 50  0000 C CNN
+F 2 "" H 19350 2200 50  0000 C CNN
+F 3 "" H 19350 2200 50  0000 C CNN
+	1    19350 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L +12V #PWR145
 U 1 1 5853781A
-P 13850 2100
-F 0 "#PWR145" H 13850 1950 50  0001 C CNN
-F 1 "+12V" H 13850 2240 50  0000 C CNN
-F 2 "" H 13850 2100 50  0000 C CNN
-F 3 "" H 13850 2100 50  0000 C CNN
-	1    13850 2100
+P 19350 1200
+F 0 "#PWR145" H 19350 1050 50  0001 C CNN
+F 1 "+12V" H 19350 1340 50  0000 C CNN
+F 2 "" H 19350 1200 50  0000 C CNN
+F 3 "" H 19350 1200 50  0000 C CNN
+	1    19350 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R109
 U 1 1 58539C71
-P 13850 2850
-F 0 "R109" V 13930 2850 50  0000 C CNN
-F 1 "10k" V 13850 2850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13780 2850 50  0001 C CNN
-F 3 "" H 13850 2850 50  0000 C CNN
-	1    13850 2850
+P 19350 1950
+F 0 "R109" V 19430 1950 50  0000 C CNN
+F 1 "10k" V 19350 1950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 19280 1950 50  0001 C CNN
+F 3 "" H 19350 1950 50  0000 C CNN
+	1    19350 1950
 	-1   0    0    1   
 $EndComp
 $Comp
 L R R108
 U 1 1 5853AA87
-P 13850 2350
-F 0 "R108" V 13930 2350 50  0000 C CNN
-F 1 "100k" V 13850 2350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 13780 2350 50  0001 C CNN
-F 3 "" H 13850 2350 50  0000 C CNN
-	1    13850 2350
+P 19350 1450
+F 0 "R108" V 19430 1450 50  0000 C CNN
+F 1 "100k" V 19350 1450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 19280 1450 50  0001 C CNN
+F 3 "" H 19350 1450 50  0000 C CNN
+	1    19350 1450
 	-1   0    0    1   
 $EndComp
 $Comp
 L C C109
 U 1 1 5853D645
-P 13450 2850
-F 0 "C109" H 13475 2950 50  0000 L CNN
-F 1 "0.01uF" H 13475 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13488 2700 50  0001 C CNN
-F 3 "" H 13450 2850 50  0000 C CNN
-	1    13450 2850
+P 18950 1950
+F 0 "C109" H 18975 2050 50  0000 L CNN
+F 1 "0.01uF" H 18975 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 18988 1800 50  0001 C CNN
+F 3 "" H 18950 1950 50  0000 C CNN
+	1    18950 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1117,7 +1117,7 @@ F 3 "" H 7950 4700 50  0000 C CNN
 	1    7950 4700
 	1    0    0    -1  
 $EndComp
-Text GLabel 12900 6200 2    60   Input ~ 0
+Text GLabel 12700 6200 2    60   Input ~ 0
 VRIN1
 Text GLabel 12650 2700 2    60   Input ~ 0
 VRIN2
@@ -1406,7 +1406,7 @@ F 3 "" H 17700 10200 50  0000 C CNN
 	1    17700 10200
 	1    0    0    -1  
 $EndComp
-Text GLabel 12900 5000 2    60   Input ~ 0
+Text GLabel 12700 5000 2    60   Input ~ 0
 IGN_A_IN
 Text GLabel 3200 5200 0    60   Input ~ 0
 IGN_E_IN
@@ -1416,9 +1416,9 @@ Text GLabel 3200 5000 0    60   Input ~ 0
 IGN_G_IN
 Text GLabel 3200 4900 0    60   Input ~ 0
 IGN_H_IN
-Text GLabel 12900 5400 2    60   Input ~ 0
+Text GLabel 12700 5400 2    60   Input ~ 0
 INJ_A_IN
-Text GLabel 12900 5300 2    60   Input ~ 0
+Text GLabel 12700 5300 2    60   Input ~ 0
 INJ_B_IN
 Text GLabel 3250 6700 0    60   Input ~ 0
 ls_1
@@ -1462,7 +1462,7 @@ F 3 "" H 15350 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 1800 2800 1700
+	2800 1700 2800 1800
 Wire Wire Line
 	19750 3650 19750 3750
 Wire Wire Line
@@ -1524,9 +1524,9 @@ Wire Wire Line
 Wire Wire Line
 	1250 5800 1450 5800
 Wire Wire Line
-	12450 5100 12900 5100
+	12450 5100 12700 5100
 Wire Wire Line
-	12900 4500 12450 4500
+	12700 4500 12450 4500
 Wire Wire Line
 	8250 8700 8400 8700
 Wire Wire Line
@@ -1693,21 +1693,21 @@ Wire Wire Line
 Wire Wire Line
 	2550 10350 2800 10350
 Wire Wire Line
-	12450 5600 12900 5600
+	12450 5600 12700 5600
 Wire Wire Line
-	12900 5700 12450 5700
+	12700 5700 12450 5700
 Wire Wire Line
-	12450 5800 12900 5800
+	12450 5800 12700 5800
 Wire Wire Line
-	12900 5900 12450 5900
+	12700 5900 12450 5900
 Wire Wire Line
-	12450 2200 12900 2200
+	12450 2200 12650 2200
 Wire Wire Line
-	12900 2300 12450 2300
+	12650 2300 12450 2300
 Wire Wire Line
-	12450 2400 12900 2400
+	12450 2400 12650 2400
 Wire Wire Line
-	12900 2500 12450 2500
+	12650 2500 12450 2500
 Wire Wire Line
 	19850 8900 19850 8800
 Connection ~ 19850 8800
@@ -1757,20 +1757,20 @@ Wire Wire Line
 	9500 8700 9400 8700
 Connection ~ 9650 8800
 Wire Wire Line
-	13850 2500 13850 2700
-Connection ~ 13850 2600
+	19350 1600 19350 1800
+Connection ~ 19350 1700
 Wire Wire Line
-	13850 3000 13850 3100
+	19350 2100 19350 2200
 Wire Wire Line
-	13850 2200 13850 2100
+	19350 1300 19350 1200
 Wire Wire Line
-	13450 2700 13450 2600
-Connection ~ 13450 2600
+	18950 1800 18950 1700
+Connection ~ 18950 1700
 Wire Wire Line
-	13450 3000 13450 3050
+	18950 2100 18950 2150
 Wire Wire Line
-	13450 3050 13850 3050
-Connection ~ 13850 3050
+	18950 2150 19350 2150
+Connection ~ 19350 2150
 Wire Wire Line
 	7650 1700 7650 1600
 Wire Wire Line
@@ -1850,17 +1850,17 @@ Wire Wire Line
 Wire Wire Line
 	21650 4750 20350 4750
 Wire Wire Line
-	12650 6600 12450 6600
+	12700 6600 12450 6600
 Wire Wire Line
-	12450 6700 12650 6700
+	12450 6700 12700 6700
 Connection ~ 7950 1600
 Wire Wire Line
 	8050 1600 8050 1700
 Connection ~ 8050 1600
 Wire Wire Line
-	12900 6200 12450 6200
+	12700 6200 12450 6200
 Wire Wire Line
-	12450 2600 13850 2600
+	18700 1700 19350 1700
 Wire Wire Line
 	12650 2700 12450 2700
 Wire Wire Line
@@ -2120,9 +2120,9 @@ Wire Wire Line
 Wire Wire Line
 	17350 10250 17500 10250
 Wire Wire Line
-	12900 4900 12450 4900
+	12700 4900 12450 4900
 Wire Wire Line
-	12450 5000 12900 5000
+	12450 5000 12700 5000
 Wire Wire Line
 	3200 5400 3450 5400
 Wire Wire Line
@@ -2130,9 +2130,9 @@ Wire Wire Line
 Wire Wire Line
 	3200 5200 3450 5200
 Wire Wire Line
-	12450 5300 12900 5300
+	12450 5300 12700 5300
 Wire Wire Line
-	12900 5400 12450 5400
+	12700 5400 12450 5400
 Wire Wire Line
 	3450 6500 3250 6500
 Wire Wire Line
@@ -2343,20 +2343,6 @@ F 3 "" V 15000 3300 50  0000 C CNN
 	1    15050 3400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	12450 3400 14750 3400
-Wire Wire Line
-	14750 3300 12450 3300
-Wire Wire Line
-	12450 3100 12750 3100
-Wire Wire Line
-	12750 3100 12750 3250
-Wire Wire Line
-	12750 3250 14600 3250
-Wire Wire Line
-	14600 3250 14600 3050
-Wire Wire Line
-	14600 3200 14750 3200
 $Comp
 L GND #PWR148
 U 1 1 588BBF5C
@@ -2397,7 +2383,7 @@ F 3 "" H 2150 2350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3450 2400 2350 2400
+	2350 2400 3450 2400
 Wire Wire Line
 	2350 2300 2700 2300
 Wire Wire Line
@@ -2444,18 +2430,6 @@ F 3 "" H 14800 5050 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	14800 5050 15050 5050
-Wire Wire Line
-	15050 4950 14200 4950
-Wire Wire Line
-	14200 4950 14200 3600
-Wire Wire Line
-	14200 3600 12450 3600
-Wire Wire Line
-	12450 3500 14100 3500
-Wire Wire Line
-	14100 3500 14100 5150
-Wire Wire Line
-	14100 5150 15050 5150
 Wire Wire Line
 	15050 5250 14600 5250
 Text GLabel 14600 5250 0    60   Input ~ 0
@@ -2536,7 +2510,6 @@ F 3 "" H 14600 2900 50  0000 C CNN
 	1    14600 2900
 	0    1    1    0   
 $EndComp
-Connection ~ 14600 3200
 $Comp
 L +5V #PWR147
 U 1 1 58919339
@@ -2771,4 +2744,53 @@ Wire Wire Line
 	3250 6900 3450 6900
 Wire Wire Line
 	3450 6800 3250 6800
+Text GLabel 18700 1700 0    60   Input ~ 0
+BATT_ADC
+Text GLabel 12650 2600 2    60   Input ~ 0
+BATT_ADC
+Wire Wire Line
+	12650 2600 12450 2600
+Text GLabel 12650 3500 2    60   Input ~ 0
+SWDIO
+Wire Wire Line
+	12650 3500 12450 3500
+Text GLabel 14600 5150 0    60   Input ~ 0
+SWDIO
+Wire Wire Line
+	14600 5150 15050 5150
+Text GLabel 12650 3600 2    60   Input ~ 0
+SWCLK
+Wire Wire Line
+	12650 3600 12450 3600
+Text GLabel 14600 4950 0    60   Input ~ 0
+SWCLK
+Wire Wire Line
+	14600 4950 15050 4950
+Text GLabel 12650 3100 2    60   Input ~ 0
+VBUS
+Wire Wire Line
+	12650 3100 12450 3100
+Text GLabel 12650 3300 2    60   Input ~ 0
+USB_DM
+Text GLabel 12650 3400 2    60   Input ~ 0
+USB_DP
+Wire Wire Line
+	12450 3300 12650 3300
+Wire Wire Line
+	12450 3400 12650 3400
+Text GLabel 14500 3300 0    60   Input ~ 0
+USB_DM
+Text GLabel 14500 3400 0    60   Input ~ 0
+USB_DP
+Wire Wire Line
+	14750 3300 14500 3300
+Wire Wire Line
+	14500 3400 14750 3400
+Text GLabel 14350 3200 0    60   Input ~ 0
+VBUS
+Wire Wire Line
+	14350 3200 14750 3200
+Wire Wire Line
+	14600 3050 14600 3200
+Connection ~ 14600 3200
 $EndSCHEMATC
