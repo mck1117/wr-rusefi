@@ -1387,13 +1387,13 @@ Text GLabel 12700 5400 2    60   Input ~ 0
 INJ_A_IN
 Text GLabel 12700 5300 2    60   Input ~ 0
 INJ_B_IN
-Text GLabel 3250 6700 0    60   Input ~ 0
-ls_1
 Text GLabel 3250 6500 0    60   Input ~ 0
-ls_2
-Text GLabel 3250 6600 0    60   Input ~ 0
-ls_3
+ls_1
 Text GLabel 3250 6400 0    60   Input ~ 0
+ls_2
+Text GLabel 3250 6700 0    60   Input ~ 0
+ls_3
+Text GLabel 3250 6600 0    60   Input ~ 0
 ls_4
 $Comp
 L C C115
