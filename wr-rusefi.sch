@@ -392,9 +392,7 @@ Text GLabel 1700 6000 2    60   Input ~ 0
 a6
 Text GLabel 1700 5900 2    60   Input ~ 0
 a7
-Text GLabel 12700 4500 2    60   Input ~ 0
-CAN_TX
-Text GLabel 12700 5100 2    60   Input ~ 0
+Text GLabel 3200 5600 0    60   Input ~ 0
 CAN_RX
 $Comp
 L MCP2562-E/SN U105
@@ -1491,10 +1489,6 @@ Wire Wire Line
 Wire Wire Line
 	1250 5800 1450 5800
 Wire Wire Line
-	12450 5100 12700 5100
-Wire Wire Line
-	12700 4500 12450 4500
-Wire Wire Line
 	8250 8700 8400 8700
 Wire Wire Line
 	8400 8500 8100 8500
@@ -2177,12 +2171,12 @@ Wire Wire Line
 $Comp
 L GND #PWR057
 U 1 1 58942FBF
-P 3050 3400
-F 0 "#PWR057" H 3050 3150 50  0001 C CNN
-F 1 "GND" H 3050 3250 50  0000 C CNN
-F 2 "" H 3050 3400 50  0000 C CNN
-F 3 "" H 3050 3400 50  0000 C CNN
-	1    3050 3400
+P 2500 2850
+F 0 "#PWR057" H 2500 2600 50  0001 C CNN
+F 1 "GND" H 2500 2700 50  0000 C CNN
+F 2 "" H 2500 2850 50  0000 C CNN
+F 3 "" H 2500 2850 50  0000 C CNN
+	1    2500 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2353,9 +2347,6 @@ Wire Wire Line
 	2350 2300 2700 2300
 Wire Wire Line
 	2700 2300 2700 1750
-Wire Wire Line
-	2500 1750 2800 1750
-Connection ~ 2800 1750
 $Comp
 L CONN_01X06 P110
 U 1 1 588F1C4E
@@ -2407,20 +2398,14 @@ Connection ~ 3150 2200
 $Comp
 L R R113
 U 1 1 588FBA7E
-P 2500 1950
-F 0 "R113" V 2580 1950 50  0000 C CNN
-F 1 "10k" V 2500 1950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 1950 50  0001 C CNN
-F 3 "" H 2500 1950 50  0000 C CNN
-	1    2500 1950
+P 2500 2650
+F 0 "R113" V 2580 2650 50  0000 C CNN
+F 1 "10k" V 2500 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 2650 50  0001 C CNN
+F 3 "" H 2500 2650 50  0000 C CNN
+	1    2500 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 2100 2500 2400
-Connection ~ 2500 2400
-Wire Wire Line
-	2500 1800 2500 1750
-Connection ~ 2700 1750
 NoConn ~ 15050 5350
 NoConn ~ 12450 3900
 NoConn ~ 12450 4000
@@ -2455,7 +2440,6 @@ NoConn ~ 3450 4500
 NoConn ~ 3450 4600
 NoConn ~ 3450 4700
 NoConn ~ 3450 4800
-NoConn ~ 3450 5700
 NoConn ~ 3450 5800
 NoConn ~ 3450 5900
 NoConn ~ 3450 6000
@@ -2528,7 +2512,6 @@ Wire Wire Line
 Connection ~ 10800 10050
 Wire Wire Line
 	12300 8450 12150 8450
-NoConn ~ 3450 5600
 $Comp
 L R R118
 U 1 1 5893EA22
@@ -2858,4 +2841,20 @@ F 3 "" H 12450 14600 50  0000 C CNN
 	1    12450 14600
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3450 5600 3200 5600
+Wire Wire Line
+	3200 5700 3450 5700
+Text GLabel 3200 5700 0    60   Input ~ 0
+CAN_TX
+NoConn ~ 12450 4500
+NoConn ~ 12450 5100
+Wire Wire Line
+	2700 1750 2800 1750
+Connection ~ 2800 1750
+Wire Wire Line
+	2500 2850 2500 2800
+Wire Wire Line
+	2500 2500 2500 2400
+Connection ~ 2500 2400
 $EndSCHEMATC
